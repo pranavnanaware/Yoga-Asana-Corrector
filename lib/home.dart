@@ -33,13 +33,6 @@ class _HomePageState extends State<HomePage> {
     print(res);
   }
 
-  onSelect(model) {
-    setState(() {
-      _model = model;
-    });
-    loadModel();
-  }
-
   setRecognitions(recognitions, imageHeight, imageWidth) {
     setState(() {
       _recognitions = recognitions;
@@ -58,8 +51,8 @@ class _HomePageState extends State<HomePage> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   RaisedButton(
-                    child: const Text(posenet),
-                    onPressed: () => onSelect(posenet),
+                    child: const Text("Open Camera"),
+                    onPressed: () => loadModel(),
                   ),
                 ],
               ),
