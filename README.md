@@ -1,4 +1,4 @@
-⛔️ **DEPRECATED** - This project is no longer maintained by the author. If you wish to continue working on this, feel free to fork and continue improving on it.
+This project had been recently migrated to Flutter 3.0 and might not work for some users.
 
 Thanks for your love and support! 🫶🏻
 
